@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transcript</title>
+    <link rel="stylesheet" href="report.css">
+</head>
+<body>
+
+    <script>
+        var firstname = prompt("enter your first name","")
+        var lastname = prompt("enter your last name","")
+        var registration = prompt("enter your registration number","")
+        var math1 = prompt("enter your marks of math","")
+        var ict = prompt("enter your marks of ict skills","")
+        var physics1 = prompt("enter your marks of physics","")
+        var analog =prompt("enter marks of analog circuit","")
+        var network=prompt("enter marks of network analysis","")
+        var workshop =prompt("enter marks of training workshop","")
+
+
+        var english = prompt("enter your marks of ENGLISH FOR generalpurposes","")
+        var math2 =prompt("enter marks of MATHEMATICS FOR ENGINEERS 2","")
+        var physics2 =prompt("enter marks of PHYSICSFOR ENGINEERS 2","")
+        var drawing=prompt("enter marks of DRAWING AND CAD","")
+        var cprogramming =prompt("enter marks of c programming","")
+        var discrete =prompt("enter marks of discrete structure for computing","")
+        var digital=prompt("enter marks of digital electronics","")
+        var database =prompt("enter marks of DATA base management systems","")
+        var citzenship =prompt("enter marks of citzenship","")
+        
+       
+        
+        // <!-- check report win all loose -->
+let marks= [math1, ict, physics1, analog, network, workshop, english,math2,physics2,drawing,cprogramming,discrete,digital,database,citzenship];
+        var totalFail = 0;
+        for(var i=0; i<15; i++)
+        {
+            if(marks[i] < 40)
+            {
+                totalFail++;
+            }
+        }
+
+// <!-- check report win all loose -->
+
+
+
+    </script> 
+
+
+
+
+
+    
+    <img src="UR.jpg" alt="">
+    <h1 style="text-align: center;">SCHOOL OF ICT(SoICT)</h1>  <br>
+
+    PROVISIONAL STATEMENT OF RESULTS <br>
+
+    DEPARTMENT OF COMPUTER AND SOFTWARE ENGENEERING <br>
+ <div class="all">
+<div class="intro">
+    UR/CST/SOict/.../2022.... <br>
+    FIRST NAME: <script>document.write(firstname)</script> <br>
+    LASTNAME:  <script>document.write(lastname)</script> <br>
+    REG NO:  <script>document.write(registration)</script> <br>
+    LEVEL 1 transcript <br>
+    PROGRAM : COMPUTER ENGINEERING <br>
+    COMPUS :NYARUGENGE <br>
+</div><br>
+   
+    
+    <div class="pic">
+        <img src="PIC.png" width="200px" height="100px" alt="">
+    </div>
+ </div>
+<!-- <center><table border="2" style="border-collapse: collapse; width: 300px;">
+    <tr><th style="padding-left: 70px;">name</th><th>reference number</th></tr>
+    <tr><th style="padding-left: 70px;"></th><th>k</th></tr>
+</center>
+  -->
+
+</table>
+
+ <center>
+ <table border="2" style="border-collapse: collapse;">
+    
+    
+
+    <tr><th colspan="5" style="background-color: grey;">TRIMESTER 1</th><th colspan="5" style="background-color: rgb(200, 204, 207);">TRIMESTER 2</th></tr>
+    
+    <tr><th>COURSE CODE</th><th>COURSE TITLE</th><th>MAX.MAX</th><th>PASS MAX/GRADE</th><th>CREDIT</th> <th>COURSE CODE</th><th>COURSE TITLE</th><th>MAX.MAX</th><th>PASS MAX/GRADE</th><th>CREDIT</th></tr>
+    
+    <tr><th>CSC1163</th><th>ICT SKILLS</th><th><script>(ict<=100)?document.write(ict):document.write("marks must not exceed 100");</script></th><th><script> if (ict >= 80 && ict <= 100) { document.write("A"); }else if (ict >= 60 && ict < 80) { document.write("B"); } else if (ict >= 40 && ict < 60) { document.write("C"); } else{ document.write("FAIL")};</script></th><th>10</th> <th>EGP1111</th><th>ENG FOR General PURPOSE</th><th><script>(english <= 100)?document.write(english):document.write("marks must not exceed 100");</script></th><th><script> if (english >= 80 && ict <= 100) { document.write("A"); }else if (english >= 60 && english < 80) { document.write("B"); } else if (english >= 40 && english < 60) { document.write("C"); } else{ document.write("FAIL")};</script></th><th>10</th></tr>
+    
+    <tr><th>MAT1166</th><th>MATHEMATICS FOR ENG1</th><th><script>(math1<=100)?document.write(math1):document.write("marks must not exceed 100");</script></th>  <th><script> if (math1 >= 80 && math1 <= 100) { document.write("A"); }else if (math1 >= 60 && math1 < 80) { document.write("B"); } else if (math1 >= 40 && math1 < 60) { document.write("C"); } else{ document.write("FAIL")};</script></th><th>10</th> <th>MAT1264</th><th>MATHEMATICSFOR ENG2</th><th><script>(math2 <= 100)?document.write(math2):document.write("marks must not exceed 100");</script></th><th><script> if (math2 >= 80 && math2 <= 100) { document.write("A"); }else if (math2 >= 60 && math2 < 80) { document.write("B"); } else if (math2 >= 40 && math2 < 60) { document.write("C"); } else{ document.write("FAIL")};</script></th><th>10</th></tr> 
+    
+    <tr><th>PHY1163</th><th>PHYSICS FOR ENG1</th><th><script>(physics1<=100)?document.write(physics1):document.write("marks must not exceed 100");</script></th><th><script> if (physics1 >= 80 && physics1 <= 100) { document.write("A"); }else if (physics1 >= 60 && physics1 < 80) { document.write("B"); } else if (physics1 >= 40 && physics1< 60) { document.write("C"); } else{ document.write("FAIL")};</script></th><th>10</th> <th>MEE1167</th><th>ENGINEERING DRAWING & CAD</th><th><script>(drawing<= 100)?document.write(drawing):document.write("marks must not exceed 100");</script></th><th><script> if (drawing >= 80 && drawing <= 100) { document.write("A"); }else if (drawing >= 60 && drawing < 80) { document.write("B"); } else if (drawing >= 40 && drawing< 60) { document.write("C"); } else{ document.write("FAIL")};</script></th><th>10</th></tr>
+    
+    <tr><th>ETE1161</th><th>ANALOG CIRCUIT</th><th><script>(analog<100)?document.write(analog):document.write("marks must not exceed 100");</script></th><th><script> if (analog >= 80 && analog <= 100) { document.write("A"); }else if (analog >= 60 && analog < 80) { document.write("B"); } else if (analog >= 40 && analog < 60) { document.write("C"); } else{ document.write("FAIL")};</script></th><th>10</th> <th>CSC1261</th><th>COMPUTER PROGRAMMING IN C</th><th><script>(cprogramming<= 100)?document.write(cprogramming):document.write("marks must not exceed 100");</script></th><th><script> if (cprogramming >= 80 && cprogramming <= 100) { document.write("A"); }else if (cprogramming >= 60 && cprogramming < 80) { document.write("B"); } else if (cprogramming >= 40 && cprogramming < 60) { document.write("C"); } else{ document.write("FAIL")};</script></th><th>10</th></tr>
+    
+    <tr><th>ELE1151</th><th>network analysis</th><th><script>(network<100)?document.write(network):document.write("marks must not exceed 100");</script></th><th><script> if (network >= 80 && network <= 100) { document.write("A"); }else if (network >= 60 && network < 80) { document.write("B"); } else if (network>= 40 && network < 60) { document.write("C"); } else{ document.write("FAIL")};</script></th><th>10</th> <th>CSC1263</th><th>DISCRETE STRUCTURE FOR COMPUTING</th><th><script>(discrete<= 100)?document.write(discrete):document.write("marks must not exceed 100");</script></th><th><script> if (discrete >= 80 && discrete <= 100) { document.write("A"); }else if (discrete >= 60 && discrete < 80) { document.write("B"); } else if (discrete >= 40 && discrete < 60) { document.write("C"); } else{ document.write("FAIL")};</script></th><th>10</th></tr>
+    
+    <tr><th>TWP1351</th><th>training workshop</th><th><script>(workshop<100)?document.write(workshop):document.write("marks must not exceed 100");</script></th><th><script> if (workshop >= 80 && workshop <= 100) { document.write("A"); }else if (workshop >= 60 && workshop < 80) { document.write("B"); } else if (workshop >= 40 && workshop < 60) { document.write("C"); } else{ document.write("FAIL")};</script></th><th>10</th> <th>PHY1264</th><th>PHYSICS FOR ENGINEERS 2</th><th><script>(physics2<= 100)?document.write(physics2):document.write("marks must not exceed 100");</script></th><th><script> if (physics2 >= 80 && physics2 <= 100) { document.write("A"); }else if (physics2>= 60 && physics2 < 80) { document.write("B"); } else if (physics2 >= 40 && physics2 < 60) { document.write("C"); } else{ document.write("FAIL")};</script></th><th>10</th></tr> 
+    <tr><th></th><th></th><th></th><th> .</th> <th></th>            <th>COE1263</th><th>DIGITAL ELECTRONIC CIRCUITS</th><th><script>(digital<= 100)?document.write(digital):document.write("marks must not exceed 100");</script></th><th><script> if (digital >= 80 && digital <= 100) { document.write("A"); }else if (digital>= 60 && digital < 80) { document.write("B"); } else if (digital >= 40 && digital < 60) { document.write("C"); } else{ document.write("FAIL")};</script></th><th>5</th></tr> 
+    <tr><th></th><th></th><th></th><th></th><th>.</th>              <th>COE1262</th><th>DATABASE SYSTEMS</th><th><script>(database <= 100)?document.write(database):document.write("marks must not exceed 100");</script></th><th><script> if (database >= 80 && database <= 100) { document.write("A"); }else if (database >= 60 && database < 80) { document.write("B"); } else if (database >= 40 && database < 60) { document.write("C"); } else{ document.write("FAIL")};</script></th><th>10</th></tr>
+    <tr><th></th><th></th><th>.</th><th>.</th><th>.</th>            <th>ECTE1111</th><th>CITZENSHIP AND TRANSFORMATIVE EDUCATION</th><th><script>(citzenship <= 100)?document.write(citzenship):document.write("marks must not exceed 100database");</script></th><th><script> if (citzenship >= 80 && citzenship <= 100) { document.write("A"); }else if (citzenship >= 60 && citzenship < 80) { document.write("B"); } else if (citzenship >= 40 && citzenship < 60) { document.write("C"); } else{ document.write("FAIL")};</script></th><th>5</th></tr>
+    <tr style="background-color: gray;"><th colspan="5">total marks results</th><th colspan="5"></th></tr>
+    <tr><th>TOTAL CREDIT </th><th colspan="9">140</th></tr>
+    
+    <tr><th>ANNUAL AVERAGE MORKS(%)</th><th colspan="9"><script>
+        var sum= parseInt(ict) + parseInt(math1) + parseInt(physics1) + parseInt(analog)+parseInt(network)+parseInt(workshop)+parseInt(english)+parseInt(math2)+parseInt(drawing)+parseInt(cprogramming)+parseInt(discrete)+parseInt(digital)+parseInt(database)+parseInt(citzenship)+parseInt(physics2) ;
+
+    var avg=((sum/900)*100);
+    avg = Math.round(avg);
+    document.write("Sum is: " + sum + " <br> Average is: " + avg + "%");
+    
+    // document.write(avg)</script></th></tr>
+   
+    <tr><th>FAILED MODULE TO RETAKE</th><th colspan="9"></tr>
+    <tr><th>REMARKS</th><th colspan="9"><script>(totalFail > 2)?document.write("Repeat"):document.write("Progress");</script></th></tr> 
+   
+ </table>  </center> 
+ 
+ <div class="yes">
+<div>HOD
+    DEPARTMENT OF CSE <br> signature</div>
+    <div >din school of ict <br> signature & stamp</div>
+ 
+</div>
+
+</body>
+ </html>
+
